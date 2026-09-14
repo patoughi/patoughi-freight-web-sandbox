@@ -1,0 +1,7 @@
+[
+  { "id": 101, "shipment_id": 1, "amount": 570000000, "note": "Empty in Tehran tonight.", "status": "pending", "created_at": "2026-09-14T09:12:00+03:30", "driver": { "id": 7, "name": "Reza Karimi", "vehicle_type": "truck_10" } },
+  { "id": 102, "shipment_id": 1, "amount": 605000000, "note": null, "status": "pending", "created_at": "2026-09-14T10:41:00+03:30", "driver": { "id": 12, "name": "Hamed Naderi", "vehicle_type": "trailer" } },
+  { "id": 103, "shipment_id": 1, "amount": 640000000, "note": "Can load at 6am.", "status": "pending", "created_at": "2026-09-14T11:05:00+03:30", "driver": { "id": 3, "name": "Mojtaba Rahimi", "vehicle_type": "truck_10" } },
+  { "id": 104, "shipment_id": 2, "amount": 850000000, "note": null, "status": "pending", "created_at": "2026-09-14T08:20:00+03:30", "driver": { "id": 9, "name": "Saeed Moradi", "vehicle_type": "trailer" } },
+  { "id": 105, "shipment_id": 4, "amount": 462000000, "note": "Regular on this route.", "status": "pending", "created_at": "2026-09-13T16:50:00+03:30", "driver": { "id": 5, "name": "Ali Shahbazi", "vehicle_type": "truck_6" } }
+]
