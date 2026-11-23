@@ -1,0 +1,20 @@
+name: Automated Code Review
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    branches: [main]
+
+concurrency:
+  group: automated-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  automated-review:
+    uses: patoughi/.github/.github/workflows/automated-review.yml@v1
+    secrets: inherit
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: read
+      id-token: write
